@@ -1,0 +1,144 @@
+<section>
+	<section data-markdown>
+		## Intersección
+	</section>
+
+	<section>
+		<h2>Intersección: Definición</h2>
+
+		<p>
+			Sean \(A\) y \(B\) dos conjuntos, el conjunto <b>intersección</b> de \(A\) y \(B\) es el formado con los elementos que están en \(A\) y están en \(B\). El conjunto intersección es único, se nota \(A \cap B\) y se define formalmente mediante el siguiente predicado:
+			<br>
+			$$\phi_{A \cap B} (x) \Leftrightarrow x \in (A \cap B) := (x \in A) \land (x \in B)$$
+		</p>
+
+		<p class="fragment">
+			Utilizando notación por comprensión
+			<br>
+			$$A \cap B = \{x : (x \in A) \land (x \in B)\}$$
+		</p>
+
+		<p class="fragment">
+			Si \(A \cap B = \emptyset\) se dice que los conjuntos \(A\) y \(B\) son <b>disyuntos</b> o <b>disjuntos</b>.
+		</p>
+	</section>
+
+	<section>
+		<h2>Intersección: Ejemplo</h2>
+
+		<p>
+			Sean \(A = \{\color{blue}{2\heartsuit}, \color{black}{2\spadesuit}, \color{black}{7\spadesuit}, \color{blue}{7\diamondsuit}, \color{blue}{7\heartsuit}\}\) y \(B = \{\color{black}{5\clubsuit}, \color{black}{6\clubsuit}, \color{black}{7\clubsuit}, \color{black}{8\clubsuit}, \color{black}{9\clubsuit}\}\). Si realizamos la intersección usando los números, entonces tenemos \(A \cap B = \{ 7 \}\). Cuya representación mediante diagramas de Venn es la siguiente:
+		</p>
+	</section>
+
+	<section>
+		<h2>Intersección: Ejemplo</h2>
+
+		<p>
+			Sean \(A = \{\color{black}{A\clubsuit}, \color{black}{A\spadesuit}, \color{black}{10\clubsuit}, \color{blue}{10\diamondsuit}, \color{blue}{10\heartsuit}\}\), \(B = \{\color{black}{10\spadesuit}, \color{black}{J\clubsuit}, \color{blue}{Q\diamondsuit}, \color{black}{K\clubsuit}, \color{blue}{A\diamondsuit}\}\) y \(C = \{\color{blue}{2\heartsuit}, \color{blue}{3\heartsuit}, \color{blue}{Q\heartsuit}, \color{blue}{K\heartsuit}, \color{blue}{A\heartsuit}\}\). Si realizamos la intersección usando los números y letras, entonces tenemos \(A \cap B \cap C = \{ A \}\).  Cuya representación mediante diagramas de Venn es la siguiente:
+		</p>
+	</section>
+
+	<section>
+		<h2>Intersección: Propiedades</h2>
+
+		<p>
+			Sean \(A\), \(B\) y \(C\) conjuntos.
+		</p>
+
+		<table>
+			<thead>
+				<tr>
+					<th style="text-align:center">Propiedad</th>
+					<th style="text-align:center">Nombre</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td style="text-align:center">
+						\(A \cap B = B \cap A\)
+					</td>
+					<td>Conmutativa</td>
+				</tr>
+				<tr class="fragment">
+					<td style="text-align:center">
+						\((A \cap B) \cap C = A \cap (B \cup C)\)
+					</td>
+					<td>Asociativa</td>
+				</tr>
+				<tr class="fragment">
+					<td style="text-align:center">
+						\(A \cap B \subseteq A\)
+						<br>
+						\(A \cap B \subseteq B\)
+					</td>
+					<td style="vertical-align:middle">Absorción</td>
+				</tr>
+				<tr class="fragment">
+					<td style="text-align:center">
+						\(A \cap \emptyset = \emptyset\)
+					</td>
+					<td>Dominación</td>
+				</tr>
+				<tr class="fragment">
+					<td style="text-align:center">
+						\(A \cap A = A\)
+					</td>
+					<td>Idempotencia</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+
+	<section>
+		<h2>Intersección: Propiedades</h2>
+
+		<p>
+			Sean \(A\), \(B\) y \(C\) conjuntos.
+		</p>
+
+		<table>
+			<thead>
+				<tr>
+					<th style="text-align:center">Propiedad</th>
+					<th style="text-align:center">Nombre</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td style="text-align:center">
+						\(A \subseteq B \Leftrightarrow A \cap B = A\)
+					</td>
+					<td></td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+
+	<section>
+		<h2>Unión e Intersección: Propiedades</h2>
+
+		<p>
+			Sean \(A\), \(B\) y \(C\) conjuntos.
+		</p>
+
+		<table>
+			<thead>
+				<tr>
+					<th style="text-align:center">Propiedad</th>
+					<th style="text-align:center">Nombre</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td style="text-align:center">
+						\(A \cap (B \cup C) = (A \cap B) \cup (A \cap C)\)
+						<br>
+						\(A \cup (B \cap C) = (A \cup B)\cap (A \cup C)\)
+					</td>
+					<td style="vertical-align:middle">Distributiva</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+</section>

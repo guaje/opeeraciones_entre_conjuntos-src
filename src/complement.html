@@ -1,0 +1,115 @@
+<section>
+	<section data-markdown>
+		## Complemento
+	</section>
+
+	<section>
+		<h2>Complemento: Definición</h2>
+
+		<p>
+			Sea \(A\) un conjunto y \(U\) un universo para \(A\), el conjunto <b>complemento</b> de \(A\) es el formado con los elementos que están en \(U\) y no están en \(A\). El conjunto complemento no es único ya que depende del universo con respecto al cual se haga la operación. El conjunto complemento se nota \(\bar A\) y se define formalmente mediante el siguiente predicado:
+			<br>
+			$$\phi_\bar A (x) \Leftrightarrow x \in (\bar A) := (x \in U) \land (x \notin A)$$
+		</p>
+
+		<p class="fragment">
+			Utilizando notación por comprensión
+			<br>
+			$$\bar A = \{x : (x \in U) \land (x \notin A)\}$$
+		</p>
+	</section>
+
+	<section>
+		<h2>Complemento: Ejemplo</h2>
+
+		<p>
+			Sean \(U = \{0, 1, 2, 3, 4, 5, 6, 7, 8, 9\}\) y \(A = \{1, 3, 5, 7, 9\}\). El diagrama de Venn que representa el conjunto \(\bar A = \{0, 2, 4, 6, 8\}\) es:
+		</p>
+	</section>
+
+	<section>
+		<h2>Complemento: Ejemplo</h2>
+
+		<p>
+			Sean \(U = \{0, 1, 2, 3, 4, 5, 6, 7, 8, 9\}\), \(A = \{1, 3, 5, 7, 9\}\) y \(B = \{2, 3, 5, 7\}\). El diagrama de Venn que representa el conjunto \(\bar A = \{0, 2, 4, 6, 8\}\) es:
+		</p>
+	</section>
+
+	<section>
+		<h2>Complemento: Propiedades</h2>
+
+		<p>
+			Sean \(A\) y \(B\) conjuntos, \(U\) un universo para \(A\) y \(B\).
+		</p>
+
+		<table>
+			<thead>
+				<tr>
+					<th style="text-align:center">Propiedad</th>
+					<th style="text-align:center">Nombre</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td style="text-align:center">
+						\(A \cup \bar A = U\)
+					</td>
+					<td>Completación</td>
+				</tr>
+				<tr class="fragment">
+					<td style="text-align:center">
+						\(A \cap \bar A = \emptyset\)
+					</td>
+					<td>Nilpotencia</td>
+				</tr>
+				<tr class="fragment">
+					<td style="text-align:center">
+						\(\bar {\bar A} = A\)
+					</td>
+					<td>Idempotencia</td>
+				</tr>
+				<tr class="fragment">
+					<td style="text-align:center">
+						\(\overline {(A \cap B)} = \bar A \cup \bar B\)
+						<br>
+						\(\overline {(A \cup B)} = \bar A \cap \bar B\)
+					</td>
+					<td style="vertical-align:middle">De Morgan</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+
+	<section>
+		<h2>Complemento: Propiedades</h2>
+
+		<p>
+			Sean \(A\) y \(B\) conjuntos, \(U\) un universo para \(A\) y \(B\).
+		</p>
+
+		<table>
+			<thead>
+				<tr>
+					<th style="text-align:center">Propiedad</th>
+					<th style="text-align:center">Nombre</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td style="text-align:center">
+						\(\bar U = \emptyset\)
+						<br>
+						\(\bar \emptyset = U\)
+					</td>
+					<td></td>
+				</tr>
+				<tr class="fragment">
+					<td style="text-align:center">
+						\(A \subseteq B \Leftrightarrow \bar B \subseteq \bar A\)
+					</td>
+					<td></td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+</section>

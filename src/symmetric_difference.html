@@ -1,0 +1,111 @@
+<section>
+	<section data-markdown>
+		## Diferencia simétrica
+	</section>
+
+	<section>
+		<h2>Diferencia simétrica: Definición</h2>
+
+		<p>
+			Sean \(A\) y \(B\) dos conjuntos, el conjunto <i>diferencia simétrica</i> de \(A\) y \(B\) es el formado con los elementos que están en \(A\) o \(B\) pero no en ambos. El conjunto diferencia simétrica es único, se nota \(A \triangle B\) y se define formalmente mediante el siguiente predicado:
+			<br>
+			$$\phi_{A \triangle B} (x) \Leftrightarrow x \in (A \triangle B) := x \in ((A \cup B) \setminus (A \cap B))$$
+		</p>
+
+		<p class="fragment">
+			Utilizando notación por comprensión
+			<br>
+			$$A \triangle B = \{x : x \in ((A \cup B) \setminus (A \cap B))\}$$
+		</p>
+	</section>
+
+	<section>
+		<h2>Diferencia simétrica: Ejemplo</h2>
+
+		<p>
+			Sean \(A = \{\color{yellow}{\blacksquare}, \color{blue}{\blacksquare}, \color{red}{\blacksquare}\}\) y \(B = \{\color{green}{\blacksquare}, \color{yellow}{\blacksquare}, \color{blue}{\blacksquare}\}\). El diagrama de Venn que representa el conjunto \(A \triangle B = \{\color{red}{\blacksquare}, \color{green}{\blacksquare}\}\) es:
+		</p>
+	</section>
+
+	<section>
+		<h2>Diferencia simétrica: Ejemplo</h2>
+
+		<p>
+			Sean \(A = \{2, 3\}\) y \(B = \{3, 4\}\). El diagrama de Venn que representa el conjunto \(A \triangle B = \{2, 4\}\) es:
+		</p>
+	</section>
+
+	<section>
+		<h2>Diferencia simétrica: Propiedades</h2>
+
+		<p>
+			Sean \(A\), \(B\) y \(C\) conjuntos, \(U\) un universo para \(A\), \(B\) y \(C\).
+		</p>
+
+		<table>
+			<thead>
+				<tr>
+					<th style="text-align:center">Propiedad</th>
+					<th style="text-align:center">Nombre</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td style="text-align:center">
+						\(A \triangle B = B \triangle A\)
+					</td>
+					<td>Conmutativa</td>
+				</tr>
+				<tr class="fragment">
+					<td style="text-align:center">
+						\((A \triangle B) \triangle C = A \triangle (B \triangle C)\)
+					</td>
+					<td>Asociativa</td>
+				</tr>
+				<tr class="fragment">
+					<td style="text-align:center">
+						\(A \triangle A = \emptyset\)
+					</td>
+					<td>Nilpotencia</td>
+				</tr>
+				<tr class="fragment">
+					<td style="text-align:center">
+						\(A \triangle \emptyset = A\)
+					</td>
+					<td>Identidad</td>
+				</tr>
+				<tr class="fragment">
+					<td style="text-align:center">
+						\(A \cap (B \triangle C) = (A \cap B) \triangle (A \cap C)\)
+					</td>
+					<td>Distributiva</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+
+	<section>
+		<h2>Diferencia simétrica: Propiedades</h2>
+
+		<p>
+			Sean \(A\), \(B\) y \(C\) conjuntos, \(U\) un universo para \(A\), \(B\) y \(C\).
+		</p>
+
+		<table>
+			<thead>
+				<tr>
+					<th style="text-align:center">Propiedad</th>
+					<th style="text-align:center">Nombre</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td style="text-align:center">
+						\(A \triangle B = (A \setminus B) \cup (B \setminus A)\)
+					</td>
+					<td></td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+</section>

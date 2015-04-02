@@ -1,0 +1,119 @@
+<section>
+	<section data-markdown>
+		## Diferencia
+	</section>
+
+	<section>
+		<h2>Diferencia: Definición</h2>
+
+		<p>
+			Sean \(A\) y \(B\) dos conjuntos, el conjunto <b>diferencia</b> de \(A\) y \(B\) es el formado con los elementos que están en \(A\) y no están en \(B\). El conjunto diferencia es único, se nota \(A \setminus B\) y se define formalmente mediante el siguiente predicado:
+			<br>
+			$$\phi_{A \setminus B} (x) \Leftrightarrow x \in (A \setminus B) := (x \in A) \land (x \notin B)$$
+		</p>
+
+		<p class="fragment">
+			Utilizando notación por comprensión
+			<br>
+			$$A \setminus B = \{x : (x \in A) \land (x \notin B)\}$$
+		</p>
+	</section>
+
+	<section>
+		<h2>Diferencia: Ejemplo</h2>
+
+		<p>
+			Sean \(A = \{\color{yellow}{\blacksquare}, \color{blue}{\blacksquare}, \color{red}{\blacksquare}\}\) y \(B = \{\color{green}{\blacksquare}, \color{yellow}{\blacksquare}, \color{black}{\blacksquare}\}\). El diagrama de Venn que representa el conjunto \(A \setminus B = \{\color{blue}{\blacksquare}, \color{red}{\blacksquare}\}\) es:
+		</p>
+	</section>
+
+	<section>
+		<h2>Diferencia: Ejemplo</h2>
+
+		<p>
+			Sean \(A = \{1, 2, 3, 4, 5\}\) y \(B = \{1, 2, 3\}\). El diagrama de Venn que representa el conjunto \(A \setminus B = \{4, 5\}\) es:
+		</p>
+	</section>
+
+	<section>
+		<h2>Diferencia: Propiedades</h2>
+
+		<p>
+			Sean \(A\) y \(B\) conjuntos, \(U\) un universo para \(A\) y \(B\).
+		</p>
+
+		<table>
+			<thead>
+				<tr>
+					<th style="text-align:center">Propiedad</th>
+					<th style="text-align:center">Nombre</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td style="text-align:center">
+						\(A \setminus \emptyset = A\)
+					</td>
+					<td>Identidad</td>
+				</tr>
+				<tr class="fragment">
+					<td style="text-align:center">
+						\(A \setminus A = \emptyset\)
+					</td>
+					<td>Nilpotencia</td>
+				</tr>
+				<tr class="fragment">
+					<td style="text-align:center">
+						\(A \setminus B \neq B \setminus A\)
+					</td>
+					<td>No conmutatividad</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+	
+	<section>
+		<h2>Diferencia: Propiedades</h2>
+
+		<p>
+			Sean \(A\) y \(B\) conjuntos, \(U\) un universo para \(A\) y \(B\).
+		</p>
+
+		<table>
+			<thead>
+				<tr>
+					<th style="text-align:center">Propiedad</th>
+					<th style="text-align:center">Nombre</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td style="text-align:center">
+						\(A \setminus B = A \cap \bar B\)
+					</td>
+					<td></td>
+				</tr>
+				<tr class="fragment">
+					<td style="text-align:center">
+						\(U \setminus A = \bar A\)
+						<br>
+						\(U \setminus \bar A = A\)
+					</td>
+					<td></td>
+				</tr>
+				<tr class="fragment">
+					<td style="text-align:center">
+						\(A \setminus B = \emptyset \Leftrightarrow A \subseteq B\)
+					</td>
+					<td></td>
+				</tr>
+				<tr class="fragment">
+					<td style="text-align:center">
+						\(A \setminus B = A \Leftrightarrow A \cap B = \emptyset\)
+					</td>
+					<td></td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+</section>
